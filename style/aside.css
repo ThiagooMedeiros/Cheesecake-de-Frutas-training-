@@ -16,21 +16,25 @@ aside > h1{
 }
 .ingredients{
   margin-bottom: 2rem;
+  padding-left: 2.0rem;
 }
 .preparation{
   margin-bottom: 1.7rem;
+  padding-left: 1.6rem;
+
 }
 button{
   background: #A54328;
-  border-radius: 5.669px;
-  border: 0;
   color: white;
 
+  border-radius: .6rem;
+  border: 0;
+  
   font-family: 'Source Serif 4', serif;
   padding: 1.1rem;
    
 }
-@media (min-width: 64em){
+@media (min-width: 1024px){
   aside{
     max-width: 52.5rem;
   }
@@ -46,5 +50,10 @@ button{
   }
   .preparation{
     margin-bottom: 2.4rem;
+  }
+  button{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
   }
 }

@@ -10,19 +10,17 @@ main{
 main > h1{
   font-size: 2.8rem;
   font-weight: 700;
-  
-  margin-bottom: 4.7rem;
 }
 main > img{
-  width: 30rem;
+  width: 100%;
 
-  margin-bottom: 4.7rem;
+  margin-block: 4.7rem; /*coloca a margin no top e botton*/
 }
 main > p{
   font-size: 1.4rem;
 }
 
-@media (min-width: 64em){
+@media (min-width: 1024px){
   main{
     max-width: 43.5rem;
   }

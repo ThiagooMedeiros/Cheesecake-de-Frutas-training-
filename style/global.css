@@ -5,20 +5,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  /*Deixa as fontes mais bonitas*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 :root {
 	font-size: 62.5%; /*transforma em 10px*/
+  font-family: 'Source Serif Pro', serif;
 }
 .app{
   padding: 5.3rem 3.7rem;
-
-  font-family: 'Source Serif 4', serif;
+  /*font-size: 1.6rem;*/
   color: #A54328;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-@media (min-width: 64em){
+@media (min-width: 1024px){
   .app{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 18.9rem;
   }
